@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Eternal Moments - Luxury Wedding Planning</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">Eternal Moments</span>
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== PAGE HEADER ==================== -->
+    <section class="page-header">
+        <div class="page-header-overlay"></div>
+        <div class="page-header-background">
+            <img src="images/gallery-3.jpg" alt="Contact Us">
+        </div>
+        <div class="page-header-content">
+            <h1 class="page-title">Contact Us</h1>
+            <p class="page-subtitle">Let's Start Planning Your Perfect Day</p>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact section-padding">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Book Your Consultation</h2>
+                <p class="section-description">We'd love to hear about your dream wedding</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Visit Us</h4>
+                            <p>123 Elegance Avenue, Suite 500<br>New York, NY 10001</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Call Us</h4>
+                            <p>+1 (555) 123-4567<br>Mon - Fri: 9AM - 6PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Us</h4>
+                            <p>hello@eternalmoments.com<br>bookings@eternalmoments.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper reveal-right">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" placeholder="John & Jane Doe" required>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" required>
+                                <span class="error-message" id="phoneError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="eventDate">Event Date</label>
+                                <input type="date" id="eventDate" name="eventDate">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="eventType">Event Type *</label>
+                            <select id="eventType" name="eventType" required>
+                                <option value="">Select Event Type</option>
+                                <option value="wedding">Wedding</option>
+                                <option value="engagement">Engagement Party</option>
+                                <option value="bridal-shower">Bridal Shower</option>
+                                <option value="rehearsal">Rehearsal Dinner</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <span class="error-message" id="eventTypeError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your dream wedding..." required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-submit">
+                            <span class="btn-text">Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== MAP SECTION ==================== -->
+    <section class="map-section" style="height: 400px; background-color: var(--cream);">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.217676750664!2d-73.98784408459418!3d40.75797467932688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"
+            title="Eternal Moments Location">
+        </iframe>
+    </section>
+
+    <!-- ==================== FAQ SECTION ==================== -->
+    <section class="faq section-padding" style="background-color: var(--white);">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-subtitle">FAQ</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item reveal-up" style="margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid rgba(0,0,0,0.1);">
+                    <h3 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--charcoal); margin-bottom: 15px;">
+                        <i class="fas fa-question-circle" style="color: var(--soft-gold); margin-right: 10px;"></i>
+                        How far in advance should we book your services?
+                    </h3>
+                    <p style="color: var(--charcoal-light); line-height: 1.8; padding-left: 35px;">
+                        We recommend booking 12-18 months in advance for full wedding planning services. However, we can accommodate shorter timelines depending on our availability. Contact us to discuss your specific needs.
+                    </p>
+                </div>
+                
+                <div class="faq-item reveal-up" style="margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid rgba(0,0,0,0.1);">
+                    <h3 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--charcoal); margin-bottom: 15px;">
+                        <i class="fas fa-question-circle" style="color: var(--soft-gold); margin-right: 10px;"></i>
+                        What is included in the initial consultation?
+                    </h3>
+                    <p style="color: var(--charcoal-light); line-height: 1.8; padding-left: 35px;">
+                        Our complimentary initial consultation includes a detailed discussion of your vision, budget considerations, venue options, and an overview of our services. It's an opportunity for us to get to know each other and see if we're the right fit.
+                    </p>
+                </div>
+                
+                <div class="faq-item reveal-up" style="margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid rgba(0,0,0,0.1);">
+                    <h3 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--charcoal); margin-bottom: 15px;">
+                        <i class="fas fa-question-circle" style="color: var(--soft-gold); margin-right: 10px;"></i>
+                        Do you work with specific vendors only?
+                    </h3>
+                    <p style="color: var(--charcoal-light); line-height: 1.8; padding-left: 35px;">
+                        We have a curated network of trusted vendors, but we're happy to work with vendors of your choice. Our goal is to create your dream wedding, and we'll collaborate with any professionals who can help achieve that vision.
+                    </p>
+                </div>
+                
+                <div class="faq-item reveal-up">
+                    <h3 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--charcoal); margin-bottom: 15px;">
+                        <i class="fas fa-question-circle" style="color: var(--soft-gold); margin-right: 10px;"></i>
+                        Can you plan destination weddings?
+                    </h3>
+                    <p style="color: var(--charcoal-light); line-height: 1.8; padding-left: 35px;">
+                        Absolutely! We specialize in both local and destination weddings. Our team has experience planning celebrations in various locations worldwide and can handle all the logistics of a destination wedding.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span class="logo-text">Eternal Moments</span>
+                    </a>
+                    <p class="footer-description">
+                        Creating unforgettable wedding experiences with elegance, passion, and attention to every detail.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4 class="footer-title">Our Services</h4>
+                    <ul>
+                        <li><a href="services.html">Full Wedding Planning</a></li>
+                        <li><a href="services.html">Event Coordination</a></li>
+                        <li><a href="services.html">Venue Styling</a></li>
+                        <li><a href="services.html">Photography</a></li>
+                        <li><a href="services.html">Catering</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Elegance Avenue, Suite 500<br>New York, NY 10001</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@eternalmoments.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Eternal Moments. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
