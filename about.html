@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Atarashi's Events and Wedding Exquisites</title>
+    <title>About Us | Atarashi's Events - Wedding & Events Planning</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,13 +15,14 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+<base target="_blank">
 </head>
 <body>
     <!-- ==================== NAVIGATION ==================== -->
     <nav class="navbar scrolled" id="navbar">
         <div class="nav-container">
             <a href="index.html" class="nav-logo">
-                <span class="logo-text">Atarashi's Events</span>
+                <img src="images/logo.jpg" alt="Atarashi's Events Logo" class="logo-img">
             </a>
             
             <ul class="nav-menu" id="navMenu">
@@ -44,7 +45,7 @@
     <section class="page-header">
         <div class="page-header-overlay"></div>
         <div class="page-header-background">
-            <img src="images/about-wedding.jpg" alt="About Eternal Moments">
+            <img src="images/about-wedding.jpg" alt="About Atarashi's Events">
         </div>
         <div class="page-header-content">
             <h1 class="page-title">About Us</h1>
@@ -69,7 +70,7 @@
                     <h2 class="section-title">Passionate About Perfect Weddings</h2>
                     
                     <p class="about-text">
-                        Eternal Moments was founded with a simple yet profound belief: every love story deserves to be celebrated in a way that is as unique and beautiful as the couple themselves. What started as a small passion project has grown into one of the most sought-after luxury wedding planning companies in the industry.
+                        Atarashi's Events was founded with a simple yet profound belief: every love story deserves to be celebrated in a way that is as unique and beautiful as the couple themselves. Based in Lapu-Lapu City, Philippines, what started as a small passion project has grown into one of the most sought-after wedding planning companies in Cebu.
                     </p>
                     
                     <p class="about-text">
@@ -152,8 +153,8 @@
         </div>
     </section>
 
-    <!-- ==================== TEAM SECTION ==================== -->
-    <section class="team section-padding">
+    <!-- ==================== TEAM SLIDER SECTION ==================== -->
+    <section class="team-slider-section" id="team">
         <div class="container">
             <div class="section-header reveal-up">
                 <span class="section-subtitle">Our Team</span>
@@ -161,32 +162,94 @@
                 <p class="section-description">The passionate professionals behind your perfect day</p>
             </div>
             
-            <div class="services-grid" style="grid-template-columns: repeat(3, 1fr);">
-                <div class="team-card reveal-up" style="text-align: center;">
-                    <div style="width: 200px; height: 200px; border-radius: 50%; overflow: hidden; margin: 0 auto 25px; border: 5px solid var(--blush-pink);">
-                        <img src="images/client-1.jpg" alt="Team Member" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="team-slider-container">
+                <div class="team-slider-track" id="teamSliderTrack">
+                    <!-- Team Member 1 -->
+                    <div class="team-slide">
+                        <div class="team-card">
+                            <div class="team-image">
+                                <img src="images/team-1.jpg" alt="Maria Santos">
+                            </div>
+                            <h3 class="team-name">Maria Santos</h3>
+                            <p class="team-role">Founder & Lead Planner</p>
+                            <p class="team-bio">With 15+ years of experience, Maria leads our team with passion and creativity.</p>
+                        </div>
                     </div>
-                    <h3 style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--charcoal);">Victoria Sterling</h3>
-                    <p style="color: var(--soft-gold); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 15px;">Founder & Creative Director</p>
-                    <p style="color: var(--charcoal-light); font-size: 0.95rem; line-height: 1.7;">With over 20 years in luxury event planning, Victoria brings unparalleled expertise and vision to every wedding.</p>
+                    
+                    <!-- Team Member 2 -->
+                    <div class="team-slide">
+                        <div class="team-card">
+                            <div class="team-image">
+                                <img src="images/team-2.jpg" alt="Juan Reyes">
+                            </div>
+                            <h3 class="team-name">Juan Reyes</h3>
+                            <p class="team-role">Event Coordinator</p>
+                            <p class="team-bio">Juan ensures every wedding day runs smoothly from start to finish.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 3 -->
+                    <div class="team-slide">
+                        <div class="team-card">
+                            <div class="team-image">
+                                <img src="images/team-3.jpg" alt="Anna Cruz">
+                            </div>
+                            <h3 class="team-name">Anna Cruz</h3>
+                            <p class="team-role">Creative Designer</p>
+                            <p class="team-bio">Anna brings fresh, innovative ideas to every wedding she designs.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 4 -->
+                    <div class="team-slide">
+                        <div class="team-card">
+                            <div class="team-image">
+                                <img src="images/team-4.jpg" alt="Liza Tan">
+                            </div>
+                            <h3 class="team-name">Liza Tan</h3>
+                            <p class="team-role">Head Florist</p>
+                            <p class="team-bio">Liza creates stunning floral arrangements that tell your love story.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 5 -->
+                    <div class="team-slide">
+                        <div class="team-card">
+                            <div class="team-image">
+                                <img src="images/team-5.jpg" alt="Carlos Lim">
+                            </div>
+                            <h3 class="team-name">Carlos Lim</h3>
+                            <p class="team-role">Photography Director</p>
+                            <p class="team-bio">Carlos captures every precious moment with artistic excellence.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 6 -->
+                    <div class="team-slide">
+                        <div class="team-card">
+                            <div class="team-image">
+                                <img src="images/team-6.jpg" alt="Sophia Garcia">
+                            </div>
+                            <h3 class="team-name">Sophia Garcia</h3>
+                            <p class="team-role">Client Relations</p>
+                            <p class="team-bio">Sophia ensures every client receives personalized attention and care.</p>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="team-card reveal-up" style="text-align: center;">
-                    <div style="width: 200px; height: 200px; border-radius: 50%; overflow: hidden; margin: 0 auto 25px; border: 5px solid var(--blush-pink);">
-                        <img src="images/client-2.jpg" alt="Team Member" style="width: 100%; height: 100%; object-fit: cover;">
+                <div class="team-controls">
+                    <button class="team-btn" id="teamPrevBtn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="team-dots">
+                        <span class="team-dot active" data-index="0"></span>
+                        <span class="team-dot" data-index="1"></span>
+                        <span class="team-dot" data-index="2"></span>
+                        <span class="team-dot" data-index="3"></span>
                     </div>
-                    <h3 style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--charcoal);">Alexandra Moore</h3>
-                    <p style="color: var(--soft-gold); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 15px;">Senior Wedding Planner</p>
-                    <p style="color: var(--charcoal-light); font-size: 0.95rem; line-height: 1.7;">Alexandra's attention to detail and organizational skills ensure every wedding runs flawlessly from start to finish.</p>
-                </div>
-                
-                <div class="team-card reveal-up" style="text-align: center;">
-                    <div style="width: 200px; height: 200px; border-radius: 50%; overflow: hidden; margin: 0 auto 25px; border: 5px solid var(--blush-pink);">
-                        <img src="images/client-3.jpg" alt="Team Member" style="width: 100%; height: 100%; object-fit: cover;">
-                    </div>
-                    <h3 style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--charcoal);">Isabella Chen</h3>
-                    <p style="color: var(--soft-gold); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 15px;">Design Specialist</p>
-                    <p style="color: var(--charcoal-light); font-size: 0.95rem; line-height: 1.7;">Isabella's creative eye transforms venues into stunning, personalized spaces that tell each couple's unique story.</p>
+                    <button class="team-btn" id="teamNextBtn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -212,7 +275,7 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="index.html" class="footer-logo">
-                        <span class="logo-text">Atarashi's Events</span>
+                        <img src="images/logo.jpg" alt="Atarashi's Events Logo" class="logo-img">
                     </a>
                     <p class="footer-description">
                         Creating unforgettable wedding experiences with elegance, passion, and attention to every detail.
@@ -252,7 +315,7 @@
                     <ul>
                         <li>
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>1300 Mahayahay, Bankal, <br>Lapu-Lapu City, Philippines, 6015</span>
+                            <span>1300 Mahayahay, Bankal<br>Lapu-Lapu City, Philippines 6015</span>
                         </li>
                         <li>
                             <i class="fas fa-phone"></i>
